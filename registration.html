@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Archery Academy</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+
+  </head>
+  <body>
+    <header class="wrapper body-header">
+      <section>
+        <a href="index.html"><img src="elements/archeryAcademy-logo-white.png" alt="Dart Logo of Archery Academy " tabindex="0"></a>
+      </section>
+      <section class="top-nav" role="Navigation" aria-label="Navigation Bar for Acacdemy Information">
+        <ul>
+          <li><a href="#" tabindex="11">About Us</a></li>
+          <li><a href="#" tabindex="12">Our Instructors</a></li>
+          <li><a href="#" tabindex="13">FAQs</a></li>
+        </ul>
+      </section>
+      <section class="main-nav" role="Navigation" aria-label="Main Navigation Bar">
+        <ul>
+          <li><a href="lessons.html"  tabindex="2">Archery Lessons</a></li>
+          <li><a href="#" tabindex="3">Fees & Tutions</a></li>
+          <li><a href="registration.html" tabindex="4">Membership</a></li>
+          <li><a href="#" tabindex="5">Facilities</a></li>
+          <li><a href="#" tabindex="6">Events</a></li>
+        </ul>
+      </section>
+    </header>
+    <main class="wrapper body-main">
+    <article class="main-article-registration">
+      <section class="reg-form">
+        <form>
+          <div class="title-banner">
+          <h1 > Sign Up </h1> </div>
+          <h3>Personal Details</h3>
+          <h5>Please fill in your information</h5>
+          <label>First Name: </label> <input type="text" autofocus="autofocus" name="firstname" placeholder="Enter your first name" ><br>
+          <label>Last Name: </label> <input type="text"  name="lastname" placeholder="Enter your last name"><br>
+          <label>Email-id: </label> <input type="email"  name="email-id" placeholder="****@gmail.com"><br>
+          <label>Password: </label> <input type="password" name="pwd"><br>
+          <label>Birth-Date: </label> <input type="date" name="birthdt" value="" ><br>
+          <label>Gender: </label>  <input type="radio" name="gender" value="Male" aria-label="Male" checked > Male
+                                   <input type="radio" name="gender" value="Female" aria-label="Female" > Female
+                                   <input type="radio" name="gender" value="Other" aria-label="Other"> Other <br>
+          <label>Mobile No: </label> <input type="text" name="mobileno" ><br>
+          <label>Address: </label> <textarea name="address" rows="8" cols="80" ></textarea><br>
+
+          <h3>Course Details</h3>
+          <label>Class: </label>
+          <select name="class" >
+            <option value="A101">Basic Archery</option>
+            <option value="A102">Intermediate Archery</option>
+            <option value="A103">Advance Archery</option>
+            <option value="1 Lesson">Single Lesson</option>
+            <option value="3 Lessons">3 Lessons Package</option>
+            <option value="10 Lessons">10 Lessons Package</option>
+        </select> <br>
+        <label>Batch :</label> <input type="radio" name="batch" value="morning" aria-label="Morning Batch" checked> Morning
+                 <input type="radio" name="batch" value="noon" aria-label="Noon Batch"> Noon
+                 <input type="radio" name="batch" value="evening" aria-label="Evening Batch"> Evening<br>
+        <label>Individual Type:</label> <input type="radio" name="type" value="kid" aria-label="Individual a Kid" checked > Kid
+                                        <input type="radio" name="type" value="youth" aria-label="Individual a Youth"> Youth
+                                       <input type="radio" name="type" value="adult" aria-label="Individual a Adult"> Adult
+                                       <input type="radio" name="type" value="family" aria-label="Individual a Family"> Family <br>
+        <input type="checkbox" name="declaration" checked > I hereby declare the above information is correct. <br>
+        <button type="submit" name="submit" role="button">Submit</button>
+        </form>
+      </section>
+
+    </article>
+    <aside class="main-aside">
+     <section>
+       <h2 class="aside-h2" tabindex="-1">Classes Schedules</h2>
+       <img src="elements/scheduler.jpg" alt="Monthly Schedule for Archery Classes" aria-="Monthly Schedule for Archery Classes" style ="width :100%">
+     </section>
+     <section>
+       <h2 class="aside-h2" aria-label="Tournaments Details">Upcoming Tournaments</h2>
+       <div class="aside-links">
+         <ul role="navigation" >
+           <li >Tournament 1</li>
+           <li >Tournament 2</li>
+           <li >Tournament 3</li>
+         </ul>
+       </div>
+    </section>
+    <section>
+      <h2 class="aside-h2" tabindex="-1">News Letters</h2>
+      <img src="elements/news.jpg" alt="Archery Tournament Picture" style = "width : 80%" class="image-news" tabindex="-1">
+      <p tabindex="-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </section>
+    </aside>
+    </main>
+    <footer class="wrapper body-footer">
+      <section>
+        <img src="elements/archeryAcademy-logo-color.png" alt="logo" style = "width : 50%">
+      </section>
+      <section>
+        <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+      </section>
+      <section class="footer-nav" role="Navigation" aria-label="Footer Navigation">
+        <ul>
+          <li><a href="#" tabindex="7">Our History </a></li>
+          <li><a href="#" tabindex="8">Photo Gallary</a></li>
+          <li><a href="#" tabindex="9">Blog</a></li>
+          <li><a href="#" tabindex="10">Contact Us</a></li>
+        </ul>
+      </section>
+      <section>
+        <p>2018 Archery Academy | Seattle, WA</p>
+      </section>
+      <section role="Navigation" aria-label="Social Media Links">
+        <p>Find us on
+              <a href="https://www.facebook.com/" aria-label="Facebook Link" ><i aria-label="Facebook Link" class="fab fa-facebook-square" tabindex="14"></i></a>
+              <a href="https://twitter.com/" aria-label="Twitter Link"><i class="fab fa-twitter-square" tabindex="15"></i></a>
+              <a href="https://www.linkedin.com/" aria-label="Linkedin Link"><i class="fab fa-linkedin" tabindex="16"></i></a>
+              <a href="https://www.instagram.com/?hl=en" aria-label="Instagram Link"><i class="fab fa-instagram" tabindex="17"></i></a>
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
